@@ -10,17 +10,28 @@
 #include <GLUT/GLUT.h>
 #include <math.h>
 #include <stdio.h>
+void setPixel(GLfloat x,GLfloat y){
+    //用OpenGL自己的函数实现书上的setPixel
+    glPointSize(5.0f);
+    glBegin(GL_POINTS);
+//    glVertex2i(x,y);
+    glVertex2f(x, y);
+    glEnd();
+    glFlush();
+}
 
 void display(){
     glClear(GL_COLOR_BUFFER_BIT);
-    glBegin(GL_POLYGON);
-    glVertex2f(-1, -0.5);
-    glVertex2f(-0.5, 0.5);
-    glVertex2f(0.5, 0.5);
-    glVertex2f(0.5, -0.5);
-    glEnd();
-    
-    glFlush();
+//    glBegin(GL_POLYGON);
+//    glVertex2f(-1, -0.5);
+//    glVertex2f(-0.5, 0.5);
+//    glVertex2f(0.5, 0.5);
+//    glVertex2f(0.5, -0.5);
+//    glEnd();
+//
+    setPixel(0, 0);
+    setPixel(0.1, 0.1);
+    setPixel(0.2, 0.2);
 }
 
 int main(int argc, char** argv){
