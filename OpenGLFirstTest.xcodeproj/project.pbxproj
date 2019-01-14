@@ -10,6 +10,7 @@
 		A918188321E383890003C2ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A918188221E383890003C2ED /* main.cpp */; };
 		A918188B21E383B00003C2ED /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A918188A21E383B00003C2ED /* GLUT.framework */; };
 		A918188D21E383BB0003C2ED /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A918188C21E383BB0003C2ED /* OpenGL.framework */; };
+		DDA99B8121ECCC240081CB60 /* A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDA99B8021ECCC240081CB60 /* A.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		A918188221E383890003C2ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A918188A21E383B00003C2ED /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		A918188C21E383BB0003C2ED /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DDA99B8021ECCC240081CB60 /* A.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				A918188221E383890003C2ED /* main.cpp */,
+				DDA99B8021ECCC240081CB60 /* A.cpp */,
 			);
 			path = OpenGLFirstTest;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A918188321E383890003C2ED /* main.cpp in Sources */,
+				DDA99B8121ECCC240081CB60 /* A.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
